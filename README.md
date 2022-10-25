@@ -3,9 +3,9 @@ Final project of the FSE course
 
 Our team:
 
-Nikolay Kashin 
-Razan Dibo
+Alina Bogdanova
 Altan Erdnigor
 Daniil Panov
+Nikolay Kashin 
+Razan Dibo
 Vasily Tesalin
-Altan Erdnigor
