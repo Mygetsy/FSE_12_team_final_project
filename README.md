@@ -25,6 +25,6 @@ RUN: example input: ./team12sort 3 2 1 output: 1 2 3
 TEST: output between cat <smallTestFile | ./team12sort>  and <cat smallTestFile | sort> should be the same 
 
 
-##How to build a docker image:
+## How to build a docker image:
 1 step: change the directory to the project directory
 2 step: execute command: 'build -t fse_12_cmd .'
