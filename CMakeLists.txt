@@ -10,6 +10,6 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 set(app_src
-        main.cpp
+       sortApp/main.cpp
     )
 add_executable(sortApp ${app_src})
