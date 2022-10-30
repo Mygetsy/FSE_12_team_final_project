@@ -9,6 +9,10 @@ jobs:
       steps:
       - name : Git clone my repo
         uses: actions/checkout@v1
+        
+      - name : exec prereqs
+        run: "chmod +x prereqs.sh"
+        shell: sh
           
       - name : run prereqs
         run: "./prereqs.sh"
