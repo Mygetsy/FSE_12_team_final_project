@@ -27,7 +27,9 @@ With CMake (Powershell):
 
 **RUN**: 
 
-```./team12sort 3 2 1 ```
+```
+./team12sort 3 2 1 
+```
 
 Or run without arguments and pass each argument on a separate line.
 
@@ -36,7 +38,9 @@ _NOTE:_ If running without arguments, use Ctrl+Z + Enter (Windows) or Ctrl+D (Li
 **TEST**: 
 
 Run test script:
-```./test.sh ```
+```
+./test.sh
+```
 
 ## How to build a docker image:
 1 step: change the directory to the project directory
