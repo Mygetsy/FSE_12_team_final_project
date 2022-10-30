@@ -13,12 +13,16 @@ Our team, here are we, from left to right:
 ## Description
 Read standard input or arguments and sort it.
 
+**BUILD DOCKER IMAGE**
+```
+docker build -t team_12_sort_image .
+```
+
 **BUILD**:  
 
 With CMake (Powershell):
 ```
 ./prereqs.sh && ./build.sh
-
 ```
 
 **RUN**: 
