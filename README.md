@@ -15,17 +15,10 @@ Read standard input or arguments and sort it.
 
 **BUILD**:  
 
-Without CMake: 
-```
-g++ -std=c++11 -o team12sort main.cpp
-```
-
 With CMake (Powershell):
 ```
-mkdir -p -Force build
-cd build
-cmake ..\sortApp\
-make
+./prereqs.sh && ./build.sh
+
 ```
 
 **RUN**: 
@@ -36,8 +29,10 @@ Or run without arguments and pass each argument on a separate line.
 
 _NOTE:_ If running without arguments, use Ctrl+Z + Enter (Windows) or Ctrl+D (Linux) to stop reading strings for sorting. 
 
-**TEST**: output between cat <smallTestFile | ./team12sort>  and <cat smallTestFile | sort> should be the same 
+**TEST**: 
 
+Run test script:
+```./test.sh ```
 
 ## How to build a docker image:
 1 step: change the directory to the project directory
