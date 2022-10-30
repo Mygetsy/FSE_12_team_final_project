@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.4)
 project(sortApp)
  
 if(NOT CMAKE_CXX_STANDARD)
