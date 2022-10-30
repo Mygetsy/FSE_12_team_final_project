@@ -11,4 +11,5 @@ jobs:
         uses: actions/checkout@v1
           
       - name : run prereqs
-        run: ./prereqs.sh
+        run: "./prereqs.sh"
+        shell: sh
